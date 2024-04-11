@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     height: 85vh;
+    width: 100%;
     gap: 40px;
     margin-bottom: 15vh;
     
@@ -91,5 +92,19 @@ h1{
     justify-content: center;
 }
 
+@media only screen and (max-width:770px ) {
+    
+    #title{
+        flex-direction: column;
+    }
+    #h1{
+        width: 60%;
+        text-align: center;
+    }
+    #title img{
+    height:0;
+    }
+
+  } 
 
 

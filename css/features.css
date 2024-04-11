@@ -1,0 +1,37 @@
+#features{
+    margin-bottom: 8%;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#features div{
+    display: grid;
+    grid-template: auto auto / auto auto;
+}
+#features .svg {
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 10px;
+
+   
+}
+.svg svg{
+    background-color: rgb(233, 236, 239);
+    padding: 8px;
+    height: 30px;
+    margin: 5px;
+    border-radius:10px ;
+}
+#features p{
+    grid-column-start:2;
+    font-family: calibri,sans-serif;
+}
+#features h2 {
+    font-family: calibri,sans-serif;
+    font-size: 25pt;
+    margin-bottom:0;
+}

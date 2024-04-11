@@ -1,0 +1,95 @@
+#title, .gradient-background  {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+#title{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    gap: 40px;
+    margin-bottom: 15vh;
+    
+}
+
+#title img{
+    height: 80%;
+    border-bottom:10px solid black ;
+
+}
+
+#h1{
+    
+    flex-basis: 400px;
+    display: grid;
+    grid-template: auto auto / auto auto;
+    
+}
+h1{
+    font-family: calibri,sans-serif;
+    grid-column: span 2;
+    font-size: 38pt;
+    font-weight: bolder;
+    }
+#apple{
+    background-color: white;
+    color: black;
+    border:hidden;
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    transition-duration: 0.4s
+    
+}
+
+#apple:hover{
+    background-color: rgb(226, 226, 226);
+}
+#apple:active{
+    background-color: rgb(199, 199, 199);
+}
+
+#google{
+    background-color: transparent;
+    color:white;
+    border-style: solid;
+    border-color:white;
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    transition-duration: 0.4s
+}
+#google:hover{
+    background-color: white ;
+    color: black;
+    border: hidden;
+    
+}
+#google:active{
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: hidden;
+}
+#h1 div{
+    display: flex;
+    justify-content: center;
+}
+
+
+

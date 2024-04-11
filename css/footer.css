@@ -1,0 +1,49 @@
+#footer , .gradient-background  {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+#footer{
+    margin: 3% 0;
+    padding: 5% 0;   
+    display: flex;
+    width: 100%;
+}
+
+#footer p{
+    flex-basis: 35% ;
+    padding: 1% 0 0 3% ;
+}
+
+#footer div{
+    flex-basis:25%;
+}
+#footer div h2{
+    font-size: 150%;
+    margin: 0;
+   
+}
+#footer div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 110%;
+    color: rgb(68, 68, 68);
+    list-style:none;
+    padding: 0;
+
+}
+

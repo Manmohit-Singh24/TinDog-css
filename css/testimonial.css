@@ -1,0 +1,19 @@
+#testimonial{
+    background-color: rgb(233, 236, 239);
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#testimonial figure img{
+    border-radius: 50%;
+    height: 100px;
+    padding-top: 20px;
+}
+#brands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
